@@ -1,0 +1,30 @@
+@font-face {
+  font-family: evilLaughter;
+  src: url(../fonts/evilLaughter.otf);
+}
+
+body {
+	font-family: "evilLaughter";
+	background-color: black;
+	text-align: center;
+}
+
+h1 {
+	font-size:50px;
+	color: red;
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+@keyframes blinker {
+	0%{color:red;}
+	50%{color:white;}
+	1000%{color:red;}
+}

@@ -1,0 +1,27 @@
+body {
+	font-family: "Courier New";
+	font-size:20px;
+	color: #c23c3c;
+	background-color: black;
+	margin: 100px;
+	margin-top: 50px;
+	text-align: center;
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+h1 {
+	font-family: "Times New Roman";
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes blinker {
+	0%{color:#c23c3c;}
+	50%{color:white;}
+	1000%{color:#c23c3c;}
+}
